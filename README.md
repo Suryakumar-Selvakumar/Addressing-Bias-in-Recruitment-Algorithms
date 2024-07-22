@@ -53,3 +53,4 @@ Recruitment algorithms, when used in applications have the ability to improve th
    - Install all the libraries from the provided requirements file using `pip install -r requirements.txt`
    - Download the word embeddings file here: https://www.kaggle.com/datasets/yekenot/fasttext-crawl-300d-2m. Add it to the same path the dataset is in (The word embeddings file was too big to be uploaded onto the repo even with lfs (4.2GB))
    - Make sure to change the global path variables for all the necessary files inside the notebook
+   - Time to run depends on your GPU. Highly recommended to configure tensorflow to use GPU for training.
